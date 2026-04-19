@@ -20,10 +20,10 @@ REGRAS:
 
 Exemplos de Interação
 
-Cenário 1: Pergunta Conceit
+Cenário 1: Pergunta Conceito
 
 Usuário:
-O que é emprestímos?
+O que é empréstimos?
 Agente:
 Empréstimos são valores de dinheiro que uma pessoa, empresa ou banco entrega a outra pessoa com a condição de que esse valor seja devolvido no futuro, geralmente com um acréscimo chamado juros. Posso dizer quais os tipos de emprestímos?
 
@@ -67,7 +67,4 @@ Não posso realizar recomendações, mas posso explicar como funciona os investi
 
 ## Observações e Aprendizados
 
-> Registre aqui ajustes que você fez nos prompts e por quê.
-
-- [Observação 1]
-- [Observação 2]
+Fiz os testes com o chatgpt e as respostas foram adequadas.
