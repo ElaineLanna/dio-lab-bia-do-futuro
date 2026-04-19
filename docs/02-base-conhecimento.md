@@ -2,40 +2,32 @@
 
 ## Dados Utilizados
 
-Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 | Arquivo | Formato | Utilização no Agente |
 |---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
-| `perfil_investidor.json` | JSON | Personalizar recomendações |
+| `historico_atendimento.csv` | CSV | Conhecer o perfil do cliente se é viavel para adquirir emprestímos |
+| `perfil_investidor.json` | JSON | Personalizar recomendações de investimentos |
 | `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
-| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
+| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente se está dentro do perfil autorizado para emprestímos e quais investimentos seriam interessantes |
 
-> [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
 
 ---
 
 ## Adaptações nos Dados
 
-> Você modificou ou expandiu os dados mockados? Descreva aqui.
-
-[Sua descrição aqui]
+> Você modificou ou expandiu os dados mockados? Descreva aqui
+Não modifiquei, o Emprest irá utilizar os arquivos.
 
 ---
 
 ## Estratégia de Integração
 
 ### Como os dados são carregados?
-> Descreva como seu agente acessa a base de conhecimento.
+ Descreva como seu agente acessa a base de conhecimento.
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+ Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt
 
 ### Como os dados são usados no prompt?
-> Os dados vão no system prompt? São consultados dinamicamente?
-
-[Sua descrição aqui]
-
 ---
 
 ## Exemplo de Contexto Montado
